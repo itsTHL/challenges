@@ -43,6 +43,16 @@ button {
 
 .button2 {
   /*Style me! Change my color, or my background-color. Or both! You can test out different color modes here - like HEX, RGB, ... */
+  background-color: black;
+  color: yellow;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.button2:hover {
+  background-color: yellow;
+  color: black;
 }
 
 .button3 {
