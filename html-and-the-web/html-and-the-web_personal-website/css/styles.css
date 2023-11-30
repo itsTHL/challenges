@@ -16,3 +16,12 @@ nav {
   padding: 15px 20px;
   color: #006d77;
 }
+
+a {
+  text-decoration: none;
+  color: #006d77;
+}
+
+a:hover {
+  color: #e29578;
+}
