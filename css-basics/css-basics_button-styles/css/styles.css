@@ -31,6 +31,14 @@ button {
 
 .button1 {
   /*Style me! Change my border, set a border radius or what you want to try out. :) */
+  border: dotted 2px purple;
+  border-radius: 25px;
+  font-size: 25px;
+  background-color: lightcyan;
+}
+
+.button1:hover {
+  border: dotted 6px darkmagenta;
 }
 
 .button2 {
