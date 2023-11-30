@@ -6,6 +6,12 @@ h2 {
   text-transform: uppercase;
 }
 
+button {
+  border: none;
+  background-color: white;
+  color: rgb(51, 134, 167);
+}
+
 .profilepic {
   border-radius: 15px;
 }
