@@ -57,6 +57,12 @@ button {
 
 .button3 {
   /*Style me! You can test out changing the font, or font size, ...*/
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: mediumaquamarine;
+  background-color: darkgreen;
+  border: none;
 }
 
 .button4 {
