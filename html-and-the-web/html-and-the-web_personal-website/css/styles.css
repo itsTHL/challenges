@@ -28,7 +28,10 @@ a:hover {
 }
 
 h2 {
+  display: inline-block;
   color: #edf6f9;
+  margin: 10px;
+  border-bottom: solid 2.5px #e29578;
 }
 
 #intro-section {
