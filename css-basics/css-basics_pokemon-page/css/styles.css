@@ -40,6 +40,10 @@ h {
 
 .title {
   /* your solution */
+  background-color: white;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
 }
 
 /* ------- Sections ------- */
