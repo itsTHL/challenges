@@ -1,3 +1,36 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: azure;
+}
+
+article {
+  border-radius: 15px;
+  background-color: white;
+  padding: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background-color: white;
+  color: rgb(51, 134, 167);
+}
+
+.profilepic {
+  border-radius: 15px;
+}
+
+.see-repos-p {
+  font-size: 20px;
+}
+
+.my-account-p {
+  color: grey;
+  font-size: 18px;
+}
