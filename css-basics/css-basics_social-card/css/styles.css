@@ -6,6 +6,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.see-repos-p {
+  font-size: 20px;
+}
+
 .profilepic {
   border-radius: 15px;
 }
