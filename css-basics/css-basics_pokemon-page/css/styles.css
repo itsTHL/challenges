@@ -80,6 +80,13 @@ section {
 
 .subtitle {
   /* your solution */
+  border-inline: solid 3px gold;
+  padding: 15px;
+  display: inline;
+}
+
+#favourites {
+  border-inline: solid 3px orange;
 }
 
 /* ------- List ------- */
