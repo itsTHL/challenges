@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #006d77;
+}
+
+body {
+  background-color: #83c5be;
+  padding: 20px;
+}
+
+nav {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px 20px;
+  color: #006d77;
+}
+
+section {
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffddd2;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  color: #e29578;
+  transition: 0.3s linear;
+}
+
+h2 {
+  display: inline-block;
+  color: #ffddd2;
+  margin: 15px 0;
+  border-bottom: solid 2.5px #e29578;
+}
+
+#thisisme {
+  border-radius: 50px;
+}
