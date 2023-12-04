@@ -40,10 +40,10 @@ ul {
 
 .navigation__menu {
   display: flex;
+  justify-content: space-between;
 }
 
 .navigation__link {
-  justify-content: center;
   background-color: var(--primary-dark);
   color: var(--white);
   padding: 5px 14px;
