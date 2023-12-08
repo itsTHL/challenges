@@ -33,14 +33,23 @@ multiplyButton.addEventListener("click", () => {
 
 divideButton.addEventListener("click", () => {
   // 4. Divide the two operands and store the result in a variable. Log the variable's value to the console.
+  let divide = operand1 / operand2;
+  console.log("The result of the division is: ", divide);
 });
 
 exponentButton.addEventListener("click", () => {
   // 5. Raise "operand1" to the value of "operand2" and store the result in a variable. Log the variable's value to the console.
+  let exponent = operand2 ** operand1;
+  console.log("Operand1 raised to operand2 is: ", exponent);
 });
 
 moduloButton.addEventListener("click", () => {
   // 6. Calculate the remainder when dividing "operand1" by "operand2" and store the result in a variable. Log the variable's value to the console.
+  let modulo = operand1 % operand2;
+  console.log(
+    "The remainder when dividing operand1 divided by operand2 is: ",
+    modulo
+  );
 });
 
 /*
