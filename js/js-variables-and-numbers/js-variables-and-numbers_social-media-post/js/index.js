@@ -11,6 +11,12 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const title = "Title";
+const text = "lorem ipsum";
+let likes = 22;
+const creator = "The Creator";
+const isReported = false;
+
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +24,15 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+
+console.log(title);
+console.log(text);
+console.log(likes);
+console.log(creator);
+console.log(isReported);
+
+let liked = likes++;
+
+console.log(likes);
 
 // --^-- write your code here --^--
