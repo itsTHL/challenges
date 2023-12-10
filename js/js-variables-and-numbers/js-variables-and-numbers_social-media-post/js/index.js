@@ -11,6 +11,12 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const title = "Title";
+const text = "lorem ipsum";
+const likes = 22;
+const creator = "The Creator";
+const isReported = false;
+
 // --^-- write your code here --^--
 
 /*
