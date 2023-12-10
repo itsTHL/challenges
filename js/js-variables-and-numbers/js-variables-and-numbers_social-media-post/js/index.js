@@ -25,4 +25,10 @@ const isReported = false;
 
 // --v-- write your code here --v--
 
+console.log(title);
+console.log(text);
+console.log(likes);
+console.log(creator);
+console.log(isReported);
+
 // --^-- write your code here --^--
