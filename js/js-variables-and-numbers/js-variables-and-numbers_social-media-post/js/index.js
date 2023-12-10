@@ -13,7 +13,7 @@ console.clear();
 
 const title = "Title";
 const text = "lorem ipsum";
-const likes = 22;
+let likes = 22;
 const creator = "The Creator";
 const isReported = false;
 
@@ -30,5 +30,9 @@ console.log(text);
 console.log(likes);
 console.log(creator);
 console.log(isReported);
+
+let liked = likes++;
+
+console.log(likes);
 
 // --^-- write your code here --^--
