@@ -15,3 +15,7 @@ buttonLight.addEventListener("click", () => {
 });
 
 const buttonToggle = document.querySelector('[data-js="toggle-button"');
+
+buttonToggle.addEventListener("click", () => {
+  bodyElement.classList.toggle("dark");
+});
