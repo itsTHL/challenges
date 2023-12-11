@@ -13,6 +13,9 @@ console.log(exampleArray);
 // Nest an array inside array nestedArray. After that nestedArray should contain an array as an element.
 
 const nestedArray = ["example", 10, true];
+nestedArray[3] = [24, false, "hello again"];
+
+console.log(nestedArray);
 
 // EXERCISE 3
 // Change the value of firstNumber to equal the first value of the numbers array using bracket notation.
