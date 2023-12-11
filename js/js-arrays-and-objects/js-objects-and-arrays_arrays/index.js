@@ -43,6 +43,8 @@ const nestedNumber = nestedNumbers[1][2][0];
 
 const petsWithPush = ["dog", "cat", "rabbit"];
 
+petsWithPush.push("rats");
+
 // EXERCISE 7
 // Use the pop method to remove the last item from fruitsWithPop.
 
