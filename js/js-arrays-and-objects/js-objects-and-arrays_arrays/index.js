@@ -22,12 +22,14 @@ console.log(nestedArray);
 
 const numbers = [20, 10, 50];
 
-const firstNumber = "change me";
+const firstNumber = numbers[0];
 
 // EXERCISE 4
 // Change the fruit stored at index 0 of fruits to mango.
 
 const fruits = ["apple", "banana", "grapefruit"];
+
+fruits[0] = "mango";
 
 // EXERCISE 5
 // Change the value of nestedNumber to equal the fourth number of nestedNumbers using bracket notation.
