@@ -10,7 +10,9 @@ console.log("Exercise 1:");
 logText();
 
 function logText() {
-  console.log("This text does not appear. Why?");
+  console.log(
+    "This text does appear now. The () after the function calling were missing."
+  );
 }
 
 console.log("-------------");
@@ -37,7 +39,13 @@ greetMary();
 
 // --v-- write your code here --v--
 
-function greet() {}
+function greet(name) {
+  console.log("Welcome " + name + ", good to see you again!");
+}
+
+greet("Alice");
+greet("Bob");
+greet("Mary");
 
 // --^-- write your code here --^--
 
