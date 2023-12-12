@@ -9,7 +9,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const bookTitle = "Coding is fun";
+const author = "Coder XY";
+const rating = "⭐⭐⭐⭐⭐";
+const numberOfSales = 123456;
 // --^-- write your code here --^--
 
 /*
