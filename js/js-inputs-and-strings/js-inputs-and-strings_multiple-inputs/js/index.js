@@ -23,3 +23,9 @@ button.addEventListener("click", () => {
   secondInput.value = firstInput.value
 })
 */
+
+// solution to second task
+
+button.addEventListener("click", () => {
+  secondInput.value = firstInput.value.toUpperCase();
+});
