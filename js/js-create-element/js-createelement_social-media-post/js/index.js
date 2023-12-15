@@ -19,3 +19,7 @@ const newPostContent = document.createElement("p");
 newPostSection.append(newPostContent);
 newPostContent.classList.add("post__content");
 newPostContent.textContent = "new lorem ipsum dolor, sit amet consectur";
+
+const newPostFooter = document.createElement("footer");
+newPostFooter.classList.add("post__footer");
+newPostSection.append(newPostFooter);
