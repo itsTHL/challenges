@@ -23,3 +23,8 @@ newPostContent.textContent = "new lorem ipsum dolor, sit amet consectur";
 const newPostFooter = document.createElement("footer");
 newPostFooter.classList.add("post__footer");
 newPostSection.append(newPostFooter);
+
+const newPostUsername = document.createElement("span");
+newPostFooter.append(newPostUsername);
+newPostUsername.classList.add("post__username");
+newPostUsername.textContent = "@username";
