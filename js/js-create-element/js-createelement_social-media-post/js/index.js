@@ -14,3 +14,8 @@ likeButton.addEventListener("click", handleLikeButtonClick);
 const newPostSection = document.createElement("section");
 newPostSection.classList.add("post");
 document.body.append(newPostSection);
+
+const newPostContent = document.createElement("p");
+newPostSection.append(newPostContent);
+newPostContent.classList.add("post__content");
+newPostContent.textContent = "new lorem ipsum dolor, sit amet consectur";
