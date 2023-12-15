@@ -10,3 +10,7 @@ likeButton.addEventListener("click", handleLikeButtonClick);
 
 // Exercise:
 // Use document.createElement() and append another social media post to the body.
+
+const newPostSection = document.createElement("section");
+newPostSection.classList.add("post");
+document.body.append(newPostSection);
