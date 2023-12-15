@@ -42,5 +42,9 @@ main.append(navElement);
 navElement.append(ul);
 
 // --v-- write/change code here --v--
-
+for (const navElements in nav) {
+  const li = document.createElement("li");
+  ul.append(li);
+  li.textContent = navElements;
+}
 // --^-- write/change code here --^--
