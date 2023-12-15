@@ -38,3 +38,9 @@ newArticle.innerHTML = ` <div class="product__body">
         <button type="button" class="product__buy-button">Buy</button>
       </footer>
 `;
+
+const myButton = newArticle.querySelector("button");
+
+myButton.addEventListener("click", () => {
+  console.log(`${name} ${price}`);
+});
