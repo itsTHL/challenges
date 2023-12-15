@@ -28,3 +28,10 @@ const newPostUsername = document.createElement("span");
 newPostFooter.append(newPostUsername);
 newPostUsername.classList.add("post__username");
 newPostUsername.textContent = "@username";
+
+const newLikeButton = document.createElement("button");
+newPostFooter.append(newLikeButton);
+newLikeButton.classList.add("post__button");
+newLikeButton.textContent = "♥ Like";
+
+newLikeButton.addEventListener("click", handleLikeButtonClick);
