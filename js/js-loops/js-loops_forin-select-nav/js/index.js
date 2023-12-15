@@ -42,9 +42,12 @@ main.append(navElement);
 navElement.append(ul);
 
 // --v-- write/change code here --v--
-for (const navElements in nav) {
+for (const navItems in nav) {
   const li = document.createElement("li");
+  const a = document.createElement("a");
   ul.append(li);
-  li.textContent = navElements;
+  li.append(a);
+  a.textContent = navItems;
+  a.href = nav[navItems].href;
 }
 // --^-- write/change code here --^--
