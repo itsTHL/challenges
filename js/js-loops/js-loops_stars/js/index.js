@@ -8,6 +8,12 @@ function renderStars() {
 
   //--v-- your code here --v--
 
+  for (let count = 1; count <= 5; count++) {
+    const star = document.createElement("img");
+    star.src = "assets/star-empty.svg";
+    starContainer.append(star);
+  }
+
   //--^-- your code here --^--
 }
 
