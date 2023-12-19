@@ -15,3 +15,7 @@ function showWelcomeMessage(userName, userRole) {
     "Welcome " + userName + "! You are logged in now as " + userRole + "!"
   );
 }
+
+function showErrorMessage(errorMessage) {
+  console.log("Login error: " + errorMessage);
+}
