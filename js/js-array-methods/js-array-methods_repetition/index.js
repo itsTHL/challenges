@@ -68,7 +68,12 @@ const allTitlesInOneString = null; // 'Crepes, Scrambled Eggs, ...'
  2: `filter` exercises
 */
 
-const recipesThatOnlyTake60minutesOrLess = null;
+const recipesThatOnlyTake60minutesOrLess = recipes.filter(
+  (recipeLessThan60) => {
+    return recipeLessThan60.duration < 60;
+  }
+);
+console.log(recipesThatOnlyTake60minutesOrLess);
 
 const allRecipesWithMoreThan2Servings = null;
 
