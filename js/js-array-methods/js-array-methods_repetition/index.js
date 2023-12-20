@@ -35,7 +35,9 @@ const recipes = [
  1: `map` exercises
 */
 
-const onlyTitles = null; // ['Crepes', ...]
+const onlyTitles = recipes.map((recipe) => {
+  return recipe.title;
+});
 
 const titlesWithDuration = null; // ['Crepes (60min)', ...]
 
