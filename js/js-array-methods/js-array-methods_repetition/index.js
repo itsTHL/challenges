@@ -75,7 +75,13 @@ const recipesThatOnlyTake60minutesOrLess = recipes.filter(
 );
 console.log(recipesThatOnlyTake60minutesOrLess);
 
-const allRecipesWithMoreThan2Servings = null;
+const allRecipesWithMoreThan2Servings = recipes.filter(
+  (recipeWithMoreThan2Serving) => {
+    return recipeWithMoreThan2Serving.servings > 2;
+  }
+);
+
+console.log(allRecipesWithMoreThan2Servings);
 
 const allRecipesWithTitlesLongerThan12Characters = null;
 
