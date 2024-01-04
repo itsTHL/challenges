@@ -1,5 +1,5 @@
 // Store the cards in a global state
-import { cards } from "./components/Card/Card.js";
+import { cards } from "./global.js";
 import Form from "./components/Form/Form.js";
 
 function Header() {
@@ -11,8 +11,6 @@ function Header() {
 
   return header;
 }
-
-// Form();
 
 function Bookmark(props) {
   const bookmark = document.createElement("button");

@@ -1,4 +1,6 @@
-export function handleFormSubmit(event) {
+import { cards } from "../../global.js";
+
+function handleFormSubmit(event) {
   event.preventDefault();
 
   const formData = new FormData(event.target);
