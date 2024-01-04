@@ -1,6 +1,7 @@
 // Store the cards in a global state
 import { cards } from "./global.js";
 import Form from "./components/Form/Form.js";
+import CardList from "./components/CardList/CardList.js";
 
 function Header() {
   const header = document.createElement("header");
@@ -90,18 +91,6 @@ function Card(props) {
   answerButton.addEventListener("click", handleAnswerButtonClick);
 
   return card;
-}
-
-function CardList() {
-  const cardList = document.createElement("section");
-  cardList.classList.add("card-list");
-
-  cards.forEach((card) => {
-    const cardElement = Card(card);
-    cardList.append(cardElement);
-  });
-
-  return cardList;
 }
 
 function App() {

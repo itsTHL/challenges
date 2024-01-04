@@ -1,4 +1,5 @@
 import { cards } from "../../global.js";
+import Card from "../Card/Card.js";
 
 function handleFormSubmit(event) {
   event.preventDefault();
