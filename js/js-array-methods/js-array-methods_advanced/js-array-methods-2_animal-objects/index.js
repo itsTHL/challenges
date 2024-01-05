@@ -140,13 +140,17 @@ console.log(animalWithWeightMoreThanFivehundredExists);
 
 // Hint: Filter for Europe first, then check every animal for its weight.
 const allAnimalsInEuropeWeighLessThanOnehundred = animals
-  .filter((animal) => animal.continents === "europe")
+  .filter((animal) => animal.continents.includes("Europe"))
   .every((animal) => animal.weight < 100);
 
 console.log(allAnimalsInEuropeWeighLessThanOnehundred);
 
 // Hint: filter + map + reduce
-const weightOfAllAnimalsInAfrica = null;
+const weightOfAllAnimalsInAfrica = animals
+  .filter((animal) => animal.continents.includes("Africa"))
+  .map((animal) => animal.weight)
+  .reduce((accumulator, animal) => accumulator + animal);
+console.log(weightOfAllAnimalsInAfrica);
 
 // Hint: As above, but divided by the number of animals in Africa.
 const averageWeightOfAllAnimalsInAfrica = null;
