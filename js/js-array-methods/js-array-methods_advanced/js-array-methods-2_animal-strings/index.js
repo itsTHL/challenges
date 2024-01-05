@@ -66,7 +66,11 @@ const anyAnimalEndsWithLetterZ = animalStrings.find((animal) =>
 
 console.log(anyAnimalEndsWithLetterZ);
 
-const everyAnimalHasMoreThanTwoLetters = null;
+const everyAnimalHasMoreThanTwoLetters = animalStrings.every(
+  (animal) => animal.length > 2
+);
+
+console.log(everyAnimalHasMoreThanTwoLetters);
 
 // Hint: There are several ways to go here. Let's focus on two options:
 // Option 1: Concatenate all characters with `reduce()` and check for the `length` property of the result.
