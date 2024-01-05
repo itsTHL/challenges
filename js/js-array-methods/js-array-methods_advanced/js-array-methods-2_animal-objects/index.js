@@ -108,7 +108,17 @@ const animalsSortedAlphabetically = animals.slice().sort((a, b) => {
 });
 console.log(animalsSortedAlphabetically);
 
-const animalsSortedByWeightStartingWithLowest = null;
+const animalsSortedByWeightStartingWithLowest = animals.slice().sort((a, b) => {
+  if (a.weight < b.weight) {
+    return -1;
+  }
+  if (a.weight > b.weight) {
+    return 1;
+  }
+  return 0;
+});
+
+console.log(animalsSortedByWeightStartingWithLowest);
 
 const animalsSortedByWeightReversed = null;
 
