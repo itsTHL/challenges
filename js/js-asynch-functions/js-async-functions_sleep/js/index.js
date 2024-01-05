@@ -17,9 +17,9 @@ button5.addEventListener("click", async () => {
   await sleep(5);
   icon.textContent = "⏰";
 });
-
-function handleSleepFor10Button() {
+async function handleSleepFor10Button() {
   icon.textContent = "💤";
+  await sleep(10);
   icon.textContent = "⏰";
 }
 
