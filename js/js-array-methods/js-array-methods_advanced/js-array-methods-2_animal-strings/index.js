@@ -21,7 +21,8 @@ const animalStrings = [
   "rhino",
 ];
 
-const hippoExists = null;
+const hippoExists = animalStrings.includes("hippo");
+console.log(hippoExists);
 
 // Hint: You can pass the starting index as second parameter.
 const catStartingFromIndexFiveExists = null;
