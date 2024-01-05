@@ -29,7 +29,10 @@ const catStartingFromIndexFiveExists = animalStrings.includes("cat", 5);
 console.log(catStartingFromIndexFiveExists);
 
 // Hint: Besides the array method, check out the string method `startsWith()`.
-const firstAnimalStartingWithLetterP = null;
+const firstAnimalStartingWithLetterP = animalStrings.find((animal) =>
+  animal.startsWith("p")
+);
+console.log(firstAnimalStartingWithLetterP);
 
 const indexOfGiraffe = null;
 
