@@ -7,6 +7,7 @@ async function fetchData() {
   const data = await response.json();
   console.log(data);
   console.log(data.results);
+  console.log(data.results[2].eye_color);
   return data;
 }
 
