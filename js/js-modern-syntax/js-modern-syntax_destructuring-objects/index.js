@@ -23,6 +23,8 @@ const { name } = company;
 
 const user = { name: "John", years: 30 };
 
+const { name, years: age, isAdmin = false } = user;
+
 // EXERCISE 3
 // Extract the variables from the dog object and
 // rename them like "dogName", "dogBreed", and "dogAge", respectively.
