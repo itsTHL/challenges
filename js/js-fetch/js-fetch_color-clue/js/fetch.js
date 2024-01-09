@@ -18,6 +18,8 @@ export async function fetchNewColor() {
    */
 
   // --v-- your code here --v--
-
+  const colorApi = await fetch(colorApiUrl);
+  const newColor = await colorApi.json;
+  console.log(newColor);
   // --^-- your code here --^--
 }
