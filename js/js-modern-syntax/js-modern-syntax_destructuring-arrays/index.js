@@ -31,6 +31,8 @@ export const [firstNameOfAlex, , lastNameOfAlex] = personAlex;
 
 const students = ["Christina", "Jon", "Alexandare"];
 
+export const [, , lastName] = students;
+
 // EXERCISE 5
 // Use array destructuring to extract all of the names from this nested array.
 // Assign the given order of students to variables called "student1" to "student5".
