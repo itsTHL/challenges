@@ -23,7 +23,7 @@ export const [ageOfChris, firstNameOfChris, lastNameOfChris] = personChris;
 
 const personAlex = ["Alex", 12, "Main"];
 
-export const [firstNameOfAlex, lastNameOfAlex, ,] = personAlex;
+export const [firstNameOfAlex, , lastNameOfAlex] = personAlex;
 
 // EXERCISE 4
 // Use array destructuring to extract the last name from the array
