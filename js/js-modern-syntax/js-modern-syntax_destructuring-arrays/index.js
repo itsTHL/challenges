@@ -15,6 +15,8 @@ const [name, price, quantity] = item;
 
 const personChris = [12, "Chris", "Owen"];
 
+const [ageOfChris, firstNameOfChris, lastNameOfChris] = personChris;
+
 // EXERCISE 3
 // Use array destructuring to extract the variables "firstNameOfAlex" and "lastNameOfAlex".
 // Make sure not to have unused variables.
