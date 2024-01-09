@@ -23,6 +23,8 @@ export const { age, ...contact } = person;
 
 const list = ["one", "two", "three", "four", "five"];
 
+export const [first, second, ...restOfList] = list;
+
 // EXERCISE 3
 // a) The `add` function does not work because it needs an array as argument.
 // b) Use the rest syntax with the `allNumbers` parameter to fix it.
